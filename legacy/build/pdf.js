@@ -10768,7 +10768,7 @@ var PDFPageProxy = /*#__PURE__*/function () {
           _ref9$normalizeWhites = _ref9.normalizeWhitespace,
           normalizeWhitespace = _ref9$normalizeWhites === void 0 ? false : _ref9$normalizeWhites,
           _ref9$disableCombineT = _ref9.disableCombineTextItems,
-          disableCombineTextItems = _ref9$disableCombineT === void 0 ? false : _ref9$disableCombineT,
+          disableCombineTextItems = _ref9$disableCombineT === void 0 ? true : _ref9$disableCombineT,
           _ref9$includeMarkedCo = _ref9.includeMarkedContent,
           includeMarkedContent = _ref9$includeMarkedCo === void 0 ? false : _ref9$includeMarkedCo;
 

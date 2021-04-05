@@ -21371,6 +21371,7 @@ var PartialEvaluator = /*#__PURE__*/function () {
               break;
 
             case _util.OPS.moveText:
+              flushTextContentItem();
               textState.translateTextLineMatrix(args[0], args[1]);
               textState.textMatrix = textState.textLineMatrix.slice();
               break;
